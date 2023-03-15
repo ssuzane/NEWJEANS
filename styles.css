@@ -1,0 +1,64 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 50px 50px;
+    background-image: url(./img/wp11772406.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.logo{
+    width: 400px;
+}
+p{
+    font-size: 20px;
+    width: 800px;
+    background-color: #FFE374;
+    color: #000000;
+    font-family: 'Mulish', sans-serif;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-self: flex-end;
+    grid-row: 100px;
+    position: absolute;
+    right: 40px;
+    top: 360px;
+}
+.y{
+    height: 35px; 
+    margin-top: 35px;
+}
+.t{
+    height: 35px;
+    margin-top: 35px;
+}
+.i{
+    height: 35px;
+    margin-top: 35px;
+}
+.f{
+    height: 35px;
+    margin-top: 35px;
+}  
+.pinha{
+    padding: 0 0 0;
+}
+.v1{
+    padding-right: 15px;
+    height: 25px;
+}
+.v2{
+    padding-right: 15px;
+    height: 25px;
+}
+.v3{
+    padding-right: 15px;
+    height: 25px;
+}
+
+.thumbnail{
+    width: 300px;
+}
